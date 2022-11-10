@@ -57,6 +57,8 @@ q:before, q:after {
 .wrapper   {
     width: 1200px;
     margin: 0 auto;
+    background-color: rgb(68, 68, 68);
+
 }
 
 /* header */
@@ -68,7 +70,6 @@ q:before, q:after {
 }
 /* float-block */
 .footage-wrapper{
-    background-color: rgb(68, 68, 68);
     text-align: center;
 }
 /* first-line-block */
@@ -103,12 +104,14 @@ q:before, q:after {
     float: left;
     width: 1200px;
     height: 400px;
+    background-color: rgb(68, 68, 68);
 }
 .third-line-block{
     width: 400px;
     height: 400px;
     float: left;
     border: 2px solid;
+
 }
 .third-line-wide-block{
     width: 800px;
@@ -128,4 +131,12 @@ q:before, q:after {
     border: 2px solid;
     float: left;
 }
+.border-efect:hover{
+    color: rgb(179, 179, 179);;
+	box-shadow: -1px -1px 20px 20px rgba(255, 255, 255, 0.267);
+	opacity: 0.3;
+	transition: opacity 0.5s, background 0.2s;
+  	background: rgb(70, 70, 70);
+}
+
 
