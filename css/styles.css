@@ -46,6 +46,12 @@ q:before, q:after {
 	content: none;
 }
 
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
 
 /* wrapper  */
 .wrapper   {
@@ -86,7 +92,7 @@ q:before, q:after {
 }
 .second-line-short-block{
     width: 400px;
-    height: 133px;
+    height: 133.333px;
     float: left;
     border: 2px solid;
     vertical-align: top;
