@@ -67,10 +67,16 @@ q:before, q:after {
     text-align: center;
     background-color: gray;
     padding: 10px;
+    color: antiquewhite;
 }
 /* float-block */
 .footage-wrapper{
     text-align: center;
+}
+.text{
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
 }
 /* first-line-block */
 .first-line-block{
@@ -78,6 +84,11 @@ q:before, q:after {
     height: 400px;
     float: left;
     border: 2px solid;
+}
+.first-line-wrapper img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 /* second-line-block */
 .wide-block-wrapper{
@@ -106,6 +117,7 @@ q:before, q:after {
     height: 400px;
     background-color: rgb(68, 68, 68);
 }
+
 .third-line-block{
     width: 400px;
     height: 400px;
@@ -132,11 +144,45 @@ q:before, q:after {
     float: left;
 }
 .border-efect:hover{
-    color: rgb(179, 179, 179);;
 	box-shadow: -1px -1px 20px 20px rgba(255, 255, 255, 0.267);
-	opacity: 0.3;
+	opacity: 1;
 	transition: opacity 0.5s, background 0.2s;
-  	background: rgb(70, 70, 70);
 }
+.red{
+    color: red;
+}
+.red:hover{
+    color: red;
+    background-color: red;
+}
+.yellow{
+    color: yellow;
+}
+.yellow:hover{
+    color: yellow;
+    background-color: yellow;
+}
+.orange{
+    color: orange;
+}
+.orange:hover{
+    color: orange;
+    background-color: orange;
+}
+.green{
+    color: green;
+}
+.green:hover{
+    color: green;
+    background-color: green;
+}
+.pink{
+    color: pink;
+}
+.pink:hover{
+    background-color: pink;
+}
+
+
 
 
