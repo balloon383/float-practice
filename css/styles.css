@@ -144,7 +144,6 @@ q:before, q:after {
     float: left;
 }
 .border-efect:hover{
-	box-shadow: -1px -1px 20px 20px rgba(255, 255, 255, 0.267);
 	opacity: 1;
 	transition: opacity 0.5s, background 0.2s;
 }
@@ -152,34 +151,35 @@ q:before, q:after {
     color: red;
 }
 .red:hover{
-    color: red;
+    color: black;
     background-color: red;
 }
 .yellow{
     color: yellow;
 }
 .yellow:hover{
-    color: yellow;
+    color: black;
     background-color: yellow;
 }
 .orange{
     color: orange;
 }
 .orange:hover{
-    color: orange;
+    color: black;
     background-color: orange;
 }
 .green{
     color: green;
 }
 .green:hover{
-    color: green;
+    color: black;
     background-color: green;
 }
 .pink{
     color: pink;
 }
 .pink:hover{
+    color: black;
     background-color: pink;
 }
 
