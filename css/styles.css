@@ -84,6 +84,11 @@ q:before, q:after {
     height: 400px;
     float: left;
     border: 2px solid;
+    color: red;
+}
+.first-line-block:hover{
+    color: black;
+    background-color: red;
 }
 .first-line-wrapper img{
     width: 400px;
@@ -101,6 +106,11 @@ q:before, q:after {
     height: 200px;
     float: left;
     border: 2px solid;
+    color: yellow;
+}
+.second-line-wide-block:hover{
+    color: black;
+    background-color: yellow;
 }
 .second-line-short-block{
     width: 400px;
@@ -108,6 +118,11 @@ q:before, q:after {
     float: left;
     border: 2px solid;
     vertical-align: top;
+    color: green;
+}
+.second-line-short-block:hover{
+    color: black;
+    background-color: green;
 }
 
 /* third-line */
@@ -123,65 +138,52 @@ q:before, q:after {
     height: 400px;
     float: left;
     border: 2px solid;
-
+    color: red;
+}
+.third-line-block:hover{
+    color: black;
+    background-color: red;
 }
 .third-line-wide-block{
     width: 800px;
     height: 200px;
     border: 2px solid;
     float: left;
+    color: yellow;
+}
+.third-line-wide-block:hover{
+    color: black;
+    background-color: yellow;
 }
 .third-line-short-block{
     width: 400px;
     height: 200px;
     border: 2px solid;
     float: left;
+    color: orange;
+}
+.third-line-short-block:hover{
+    color: black;
+    background-color: orange;
 }
 .third-line-small-block{
     width: 400px;
     height: 100px;
     border: 2px solid;
     float: left;
+    color: pink;
 }
+.third-line-small-block:hover{
+    color: black;
+    background-color: pink;
+}
+/* hover-efects */
 .border-efect:hover{
 	opacity: 1;
 	transition: opacity 0.5s, background 0.2s;
 }
-.red{
-    color: red;
-}
-.red:hover{
-    color: black;
-    background-color: red;
-}
-.yellow{
-    color: yellow;
-}
-.yellow:hover{
-    color: black;
-    background-color: yellow;
-}
-.orange{
-    color: orange;
-}
-.orange:hover{
-    color: black;
-    background-color: orange;
-}
-.green{
-    color: green;
-}
-.green:hover{
-    color: black;
-    background-color: green;
-}
-.pink{
-    color: pink;
-}
-.pink:hover{
-    color: black;
-    background-color: pink;
-}
+
+
 
 
 
