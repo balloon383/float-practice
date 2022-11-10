@@ -72,9 +72,6 @@ q:before, q:after {
 /* float-block */
 .footage-wrapper{
     text-align: center;
-}
-.text{
-    display: block;
     font-size: 35px;
     font-weight: 700;
 }
@@ -100,11 +97,11 @@ q:before, q:after {
     width: 800px;
     height: 400px;
     float: left;
+    
 }
 .second-line-wide-block{
     width: 800px;
     height: 200px;
-    float: left;
     border: 2px solid;
     color: yellow;
 }
