@@ -125,9 +125,6 @@ q:before, q:after {
 /* third-line */
 .third-line-wrapper{
     float: left;
-    width: 1200px;
-    height: 400px;
-    background-color: rgb(68, 68, 68);
 }
 
 .third-line-block{
